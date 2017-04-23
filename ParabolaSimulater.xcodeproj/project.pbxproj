@@ -7,31 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		67339BD81DE6CCBA00EF7F4E /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67339BD71DE6CCBA00EF7F4E /* MyView.m */; };
-		67ABD74A1D7560B000A346B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ABD7491D7560B000A346B5 /* main.m */; };
-		67ABD74D1D7560B100A346B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ABD74C1D7560B100A346B5 /* AppDelegate.m */; };
-		67ABD7501D7560B100A346B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ABD74F1D7560B100A346B5 /* ViewController.m */; };
-		67ABD7531D7560B100A346B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67ABD7511D7560B100A346B5 /* Main.storyboard */; };
-		67ABD7551D7560B100A346B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67ABD7541D7560B100A346B5 /* Assets.xcassets */; };
-		67ABD7581D7560B100A346B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67ABD7561D7560B100A346B5 /* LaunchScreen.storyboard */; };
-		67ABD7721D78318000A346B5 /* UIView+CVUIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ABD7711D78318000A346B5 /* UIView+CVUIViewAdditions.m */; };
+		18F74C6E1EAC988B00A97BC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F74C601EAC988B00A97BC7 /* AppDelegate.m */; };
+		18F74C6F1EAC988B00A97BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F74C611EAC988B00A97BC7 /* Assets.xcassets */; };
+		18F74C701EAC988B00A97BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F74C621EAC988B00A97BC7 /* LaunchScreen.storyboard */; };
+		18F74C711EAC988B00A97BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F74C641EAC988B00A97BC7 /* Main.storyboard */; };
+		18F74C721EAC988B00A97BC7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F74C661EAC988B00A97BC7 /* Info.plist */; };
+		18F74C731EAC988B00A97BC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F74C671EAC988B00A97BC7 /* main.m */; };
+		18F74C741EAC988B00A97BC7 /* ParabolaSimulaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F74C691EAC988B00A97BC7 /* ParabolaSimulaterView.m */; };
+		18F74C751EAC988B00A97BC7 /* UIView+CVUIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F74C6B1EAC988B00A97BC7 /* UIView+CVUIViewAdditions.m */; };
+		18F74C761EAC988B00A97BC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F74C6D1EAC988B00A97BC7 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		67339BD61DE6CCBA00EF7F4E /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
-		67339BD71DE6CCBA00EF7F4E /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
-		67ABD7451D7560B000A346B5 /* MyRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		67ABD7491D7560B000A346B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		67ABD74B1D7560B100A346B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		67ABD74C1D7560B100A346B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		67ABD74E1D7560B100A346B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		67ABD74F1D7560B100A346B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		67ABD7521D7560B100A346B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		67ABD7541D7560B100A346B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		67ABD7571D7560B100A346B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		67ABD7591D7560B100A346B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67ABD7701D78318000A346B5 /* UIView+CVUIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CVUIViewAdditions.h"; sourceTree = "<group>"; };
-		67ABD7711D78318000A346B5 /* UIView+CVUIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CVUIViewAdditions.m"; sourceTree = "<group>"; };
+		18F74C5F1EAC988B00A97BC7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F74C601EAC988B00A97BC7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F74C611EAC988B00A97BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F74C631EAC988B00A97BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F74C651EAC988B00A97BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F74C661EAC988B00A97BC7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F74C671EAC988B00A97BC7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F74C681EAC988B00A97BC7 /* ParabolaSimulaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParabolaSimulaterView.h; sourceTree = "<group>"; };
+		18F74C691EAC988B00A97BC7 /* ParabolaSimulaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParabolaSimulaterView.m; sourceTree = "<group>"; };
+		18F74C6A1EAC988B00A97BC7 /* UIView+CVUIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CVUIViewAdditions.h"; sourceTree = "<group>"; };
+		18F74C6B1EAC988B00A97BC7 /* UIView+CVUIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CVUIViewAdditions.m"; sourceTree = "<group>"; };
+		18F74C6C1EAC988B00A97BC7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F74C6D1EAC988B00A97BC7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67ABD7451D7560B000A346B5 /* ParabolaSimulater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParabolaSimulater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,10 +46,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18F74C5E1EAC988B00A97BC7 /* ParabolaSimulater */ = {
+			isa = PBXGroup;
+			children = (
+				18F74C5F1EAC988B00A97BC7 /* AppDelegate.h */,
+				18F74C601EAC988B00A97BC7 /* AppDelegate.m */,
+				18F74C6C1EAC988B00A97BC7 /* ViewController.h */,
+				18F74C6D1EAC988B00A97BC7 /* ViewController.m */,
+				18F74C681EAC988B00A97BC7 /* ParabolaSimulaterView.h */,
+				18F74C691EAC988B00A97BC7 /* ParabolaSimulaterView.m */,
+				18F74C611EAC988B00A97BC7 /* Assets.xcassets */,
+				18F74C621EAC988B00A97BC7 /* LaunchScreen.storyboard */,
+				18F74C641EAC988B00A97BC7 /* Main.storyboard */,
+				18F74C661EAC988B00A97BC7 /* Info.plist */,
+				18F74C671EAC988B00A97BC7 /* main.m */,
+				18F74C6A1EAC988B00A97BC7 /* UIView+CVUIViewAdditions.h */,
+				18F74C6B1EAC988B00A97BC7 /* UIView+CVUIViewAdditions.m */,
+			);
+			path = ParabolaSimulater;
+			sourceTree = "<group>";
+		};
 		67ABD73C1D7560B000A346B5 = {
 			isa = PBXGroup;
 			children = (
-				67ABD7471D7560B000A346B5 /* MyRefresh */,
+				18F74C5E1EAC988B00A97BC7 /* ParabolaSimulater */,
 				67ABD7461D7560B000A346B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,45 +77,17 @@
 		67ABD7461D7560B000A346B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				67ABD7451D7560B000A346B5 /* MyRefresh.app */,
+				67ABD7451D7560B000A346B5 /* ParabolaSimulater.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		67ABD7471D7560B000A346B5 /* MyRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				67ABD74B1D7560B100A346B5 /* AppDelegate.h */,
-				67ABD74C1D7560B100A346B5 /* AppDelegate.m */,
-				67ABD74E1D7560B100A346B5 /* ViewController.h */,
-				67ABD74F1D7560B100A346B5 /* ViewController.m */,
-				67339BD61DE6CCBA00EF7F4E /* MyView.h */,
-				67339BD71DE6CCBA00EF7F4E /* MyView.m */,
-				67ABD7701D78318000A346B5 /* UIView+CVUIViewAdditions.h */,
-				67ABD7711D78318000A346B5 /* UIView+CVUIViewAdditions.m */,
-				67ABD7511D7560B100A346B5 /* Main.storyboard */,
-				67ABD7541D7560B100A346B5 /* Assets.xcassets */,
-				67ABD7561D7560B100A346B5 /* LaunchScreen.storyboard */,
-				67ABD7591D7560B100A346B5 /* Info.plist */,
-				67ABD7481D7560B000A346B5 /* Supporting Files */,
-			);
-			path = MyRefresh;
-			sourceTree = "<group>";
-		};
-		67ABD7481D7560B000A346B5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				67ABD7491D7560B000A346B5 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		67ABD7441D7560B000A346B5 /* MyRefresh */ = {
+		67ABD7441D7560B000A346B5 /* ParabolaSimulater */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67ABD75C1D7560B100A346B5 /* Build configuration list for PBXNativeTarget "MyRefresh" */;
+			buildConfigurationList = 67ABD75C1D7560B100A346B5 /* Build configuration list for PBXNativeTarget "ParabolaSimulater" */;
 			buildPhases = (
 				67ABD7411D7560B000A346B5 /* Sources */,
 				67ABD7421D7560B000A346B5 /* Frameworks */,
@@ -104,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = MyRefresh;
+			name = ParabolaSimulater;
 			productName = MyRefresh;
-			productReference = 67ABD7451D7560B000A346B5 /* MyRefresh.app */;
+			productReference = 67ABD7451D7560B000A346B5 /* ParabolaSimulater.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,10 +113,11 @@
 				TargetAttributes = {
 					67ABD7441D7560B000A346B5 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2MW92U9MCC;
 					};
 				};
 			};
-			buildConfigurationList = 67ABD7401D7560B000A346B5 /* Build configuration list for PBXProject "MyRefresh" */;
+			buildConfigurationList = 67ABD7401D7560B000A346B5 /* Build configuration list for PBXProject "ParabolaSimulater" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -136,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				67ABD7441D7560B000A346B5 /* MyRefresh */,
+				67ABD7441D7560B000A346B5 /* ParabolaSimulater */,
 			);
 		};
 /* End PBXProject section */
@@ -146,9 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67ABD7581D7560B100A346B5 /* LaunchScreen.storyboard in Resources */,
-				67ABD7551D7560B100A346B5 /* Assets.xcassets in Resources */,
-				67ABD7531D7560B100A346B5 /* Main.storyboard in Resources */,
+				18F74C721EAC988B00A97BC7 /* Info.plist in Resources */,
+				18F74C711EAC988B00A97BC7 /* Main.storyboard in Resources */,
+				18F74C6F1EAC988B00A97BC7 /* Assets.xcassets in Resources */,
+				18F74C701EAC988B00A97BC7 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,31 +154,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67ABD7501D7560B100A346B5 /* ViewController.m in Sources */,
-				67ABD74D1D7560B100A346B5 /* AppDelegate.m in Sources */,
-				67ABD7721D78318000A346B5 /* UIView+CVUIViewAdditions.m in Sources */,
-				67ABD74A1D7560B000A346B5 /* main.m in Sources */,
-				67339BD81DE6CCBA00EF7F4E /* MyView.m in Sources */,
+				18F74C731EAC988B00A97BC7 /* main.m in Sources */,
+				18F74C6E1EAC988B00A97BC7 /* AppDelegate.m in Sources */,
+				18F74C751EAC988B00A97BC7 /* UIView+CVUIViewAdditions.m in Sources */,
+				18F74C741EAC988B00A97BC7 /* ParabolaSimulaterView.m in Sources */,
+				18F74C761EAC988B00A97BC7 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		67ABD7511D7560B100A346B5 /* Main.storyboard */ = {
+		18F74C621EAC988B00A97BC7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				67ABD7521D7560B100A346B5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		67ABD7561D7560B100A346B5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67ABD7571D7560B100A346B5 /* Base */,
+				18F74C631EAC988B00A97BC7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		18F74C641EAC988B00A97BC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F74C651EAC988B00A97BC7 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -275,11 +270,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2MW92U9MCC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/MyRefresh",
+					"$(PROJECT_DIR)/ParabolaSimulater",
 				);
-				INFOPLIST_FILE = MyRefresh/Info.plist;
+				INFOPLIST_FILE = ParabolaSimulater/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gao.MyRefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,11 +286,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2MW92U9MCC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/MyRefresh",
+					"$(PROJECT_DIR)/ParabolaSimulater",
 				);
-				INFOPLIST_FILE = MyRefresh/Info.plist;
+				INFOPLIST_FILE = ParabolaSimulater/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gao.MyRefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,7 +301,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		67ABD7401D7560B000A346B5 /* Build configuration list for PBXProject "MyRefresh" */ = {
+		67ABD7401D7560B000A346B5 /* Build configuration list for PBXProject "ParabolaSimulater" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67ABD75A1D7560B100A346B5 /* Debug */,
@@ -313,7 +310,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67ABD75C1D7560B100A346B5 /* Build configuration list for PBXNativeTarget "MyRefresh" */ = {
+		67ABD75C1D7560B100A346B5 /* Build configuration list for PBXNativeTarget "ParabolaSimulater" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67ABD75D1D7560B100A346B5 /* Debug */,

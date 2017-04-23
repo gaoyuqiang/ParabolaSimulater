@@ -6,10 +6,10 @@
 //  Copyright © 2016年 lagou. All rights reserved.
 //
 
-#import "MyView.h"
+#import "ParabolaSimulaterView.h"
 #import "UIView+CVUIViewAdditions.h"
 
-@implementation MyView {
+@implementation ParabolaSimulaterView {
     CGFloat _a;
     CGFloat _b;
     CGFloat _c;

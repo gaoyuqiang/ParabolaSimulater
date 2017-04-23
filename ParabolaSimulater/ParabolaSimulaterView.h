@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyView : UIView
+@interface ParabolaSimulaterView : UIView
 
 /**
  *@brief 设置三个值  y=ax2 + bx + c
